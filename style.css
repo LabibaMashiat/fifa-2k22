@@ -85,10 +85,7 @@ width:100%;
     height:50px;
     text-align: center;
 }
-.game-details .color
-{
-    background-color: lightpink;
-}
+
 /* ---Game Details box end--- */
 
 /*---Matches Class Start---*/
@@ -185,6 +182,53 @@ footer .communication a
     font-size: 30px;
 }
 /*---------- ending footer-------------- */
+
+/*---------------------------------------------------------------------index1 -------completed------------------------------------------------------------ */
+.upcoming-matches{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+.upcoming-match
+{
+    width:100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    display:grid;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+   
+}
+ .flag
+{
+display:flex;
+justify-content: space-evenly;
+}
+.match-details
+{
+    text-align: center;
+}
+.match-details h5{
+    color:gray;
+    
+}
+
+/* ---------index-2 ending ---------------*/
+
+/*---- hover part---- */
+.upcoming-match:hover
+{
+    border:1px solid silver;
+}
+.game-details .box:hover{
+    border:1px solid magenta;
+    background-color: pink;
+
+}
+
 
 
 
