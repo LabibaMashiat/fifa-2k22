@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Taviraj', serif;
+    max-width: 100%;
+    
+}
+main{
+    display: grid;
+    justify-content: center;
+}
+  .container 
+{
+    width:1000px;
+}  
+.live-game
+{    width: 1000px;
+    padding-left: 50px;
+    background-color: black;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    }
+ .container .live-game .description{
+width:100%;
+}
+.container .live-game .description h1{
+    font-size: 3em;
+    color:white;
+}
+.container .live-game .description p{
+    font-weight: 300;
+    color: white;
+}
+.container .live-game .description button{
+    border-radius: 10px;
+    padding: 15px;
+    background-color:yellow;
+    font-weight: 700;
+}
+.live-game .player-image img{
+    width:100%;
+    height: 100%;   
+}
+
+/*--------- second-section -----------*/
+
+
+
+ 
+
