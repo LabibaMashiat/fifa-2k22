@@ -16,7 +16,7 @@ main{
     
 }  
  .live-game
-{  
+{   
     padding-left: 50px;
     background-color: black;
     border-radius: 15px;
@@ -25,6 +25,8 @@ main{
     justify-content: space-between;
     }
  .container .live-game .description{
+    position: relative;
+    bottom: 10px;
 width:100%;
 }
 .container .live-game .description h1{
@@ -41,10 +43,14 @@ width:100%;
     background-color:yellow;
     font-weight: 700;
 }
-.live-game .player-image img{
-    width:100%;
-    height: 100%;   
+ .container .player-image img{
+    
+  width:100%;
+  height:100%;
+  
+    
 }
+
 
 /*--------- Information-section Start -----------*/
 /*---game-details-Box---*/
@@ -245,7 +251,7 @@ justify-content: space-evenly;
         
     }
     .description{
-        text-align: center;
+        
         margin-bottom: 5px;
     }
     .info-section{
@@ -315,16 +321,28 @@ justify-content: space-evenly;
     {
         display: flex;
         flex-wrap: wrap;
+        width: 75%;
+    position: relative;
+    left: 80px;
         
     }
     .communication a 
     {
         margin: 10px;
     }
+
     
 }
+/*----------- Tablet media query ending ---------*/
 
+/* ANIMATION */
+.live-link:hover
+{   
+     transform: rotate(360deg);
+    transition: transform 0.5s linear; 
+    
 
+}
 
 
 
